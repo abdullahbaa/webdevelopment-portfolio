@@ -29,7 +29,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 200px ;
+    margin: 0 200px ;
 
 }
 .nav-title{
@@ -37,7 +37,7 @@ nav{
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+nav>ul{
     display: flex;
     align-items: center;
 }
@@ -50,25 +50,25 @@ nav a{
     color: #474747;
 }
 .header{
-    background-color: white;
-    background-image: url('../images/header_bg.png');
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right ,top left;
 
 }
 .banner{
-    padding: 50px 20px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-picture{
     width: 200px;
    
 
-}
-.banner-content{
-    max-width: 500px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -156,7 +156,7 @@ margin:130px 0 ;
 .download-cv{
     text-align: center;
     margin-top: 50px;
-    color: #fd6e0a;
+   
     
 }
 .footer{
